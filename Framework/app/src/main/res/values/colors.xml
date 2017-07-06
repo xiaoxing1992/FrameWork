@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- 头部颜色 -->
+    <color name="top_bg_color"> #323a45</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="defualt_text_color">#636363</color>
+
+    <!-- 灰色 -->
+    <color name="main_gray"> #767676</color>
+    <color name="main_gray2"> #acacac</color>
+    <!-- 无色 -->
+    <color name="no_color">#00000000</color>
+    <color name="tongle_color">#ff00ff</color>
+    <!-- 线条的背景灰色 -->
+    <color name="gray">#F4F4F4</color>
+
+    <!-- 主色 -->
+    <color name="main_color">#c0ae81</color>
+
+    <!-- 根布局的背景 -->
+    <color name="root_bg_color">#efeded</color>
+</resources>

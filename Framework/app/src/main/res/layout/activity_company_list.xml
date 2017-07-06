@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/home_menu_toggle"
+            android:layout_height="wrap_content" />
+        
+        <LinearLayout
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:background="@drawable/title_search_bg"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:hint="输入你想搜索的公司"
+                android:textSize="@dimen/tv_12_sp"
+                android:textColor="#cbcbcb"
+                android:background="@null"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:padding="10dp"
+                android:src="@drawable/title_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+        <TextView
+            android:drawableLeft="@drawable/map_location"
+            android:layout_width="wrap_content"
+            android:text="长沙"
+            android:textColor="#c6b178"
+            android:textSize="@dimen/tv_12_sp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <com.example.hui.adapter.xlistview.XListView
+        android:layout_width="match_parent"
+        android:dividerHeight="13dp"
+        android:divider="#f7fafc"
+        android:id="@+id/x_list_view"
+        android:layout_weight="1"
+        android:layout_height="0dp"/>
+</LinearLayout>
+
+
+

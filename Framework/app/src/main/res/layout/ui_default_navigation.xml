@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@color/top_bg_color"
+    tools:context="com.example.hui.ioc.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/back_ll"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/return_selector"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="@dimen/tv_14_sp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:text="返回"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_centerInParent="true"
+        android:id="@+id/title_tv"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/right_tv"
+        android:layout_width="wrap_content"
+        android:text="使用帮助"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:textSize="@dimen/tv_14_sp"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:layout_height="match_parent" />
+</RelativeLayout>
